@@ -53,7 +53,33 @@
 usw.
 5) mach eine function der du einen string übergeben kannst die diesen string verkehrt ausgibt
 reverser("Hallo!") // gibt "!ollaH" aus
+*/
+// var backWards = "";
+// function reverser(str) {
+//     for (var i = str.length - 1; i >= 0; i--) {
+//         backWards += str[i];
+//     }
+// }
+// reverser("Hallo!");
+// console.log(backWards)
+
+/*
+
+
 6) mach einen loop der nur gerade zahlen bis 10 augibt
+
+*/
+num = 10;
+for (i = 2; i <= num; i += 2) {
+    console.log(i)
+}
+
+
+
+/*
+
+
+
 7) mach eine function die eine zahl n und eine zahl k nimmt. n ist die zahl bis zu der der loop zählt und k ist die zahl durch die die geloggten zahlen teilbahr sein sollen
 teilbahr(30,3); gibt folgendes aus:
 3
