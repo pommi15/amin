@@ -1,4 +1,4 @@
-/*
+/* Done
 1) mach einen loop der alle zahlen von eins bis 10 ausgibt, untereinander:
 1
 2
@@ -11,36 +11,33 @@
 9
 10*/
 
-// for (let i = 1; i <= 10; i++) {
-//     console.log(i);
-
-// }
-
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
 
 /*
-2) mach einen loop der alle zahlen von 1 bis 10 ausgibt, in einer Ziele:
+2) Done 
+mach einen loop der alle zahlen von 1 bis 10 ausgibt, in einer Ziele:
 12345678910
 
 */
-// var vals = [];
-// for (let i = 1; i <= 10; i++) {
-//     vals.push(i);
-// }
-// console.log(vals.join(""));
+var vals = [];
+for (let i = 1; i <= 10; i++) {
+  vals.push(i);
+}
+console.log(vals.join(""));
 
 /*
-3) mach einen loop der alle zahlen von 10 bis -10 ausgibt in einer Zeile
+3) Done
+mach einen loop der alle zahlen von 10 bis -10 ausgibt in einer Zeile
 109876543210-1-2-3-4-5-6-7-8-9-10
 */
 
-// var vals = [];
-// for (let i = 10; i >= -10; i--) {
-//     vals.push(i);
-// }
-// console.log(vals.join(""));
-
-
-
+var vals = [];
+for (let i = 10; i >= -10; i--) {
+  vals.push(i);
+}
+console.log(vals.join(""));
 
 /*
 4) mach einen loop der die fibonaccisequenz bis 100 ausgibt, untereinnander:
