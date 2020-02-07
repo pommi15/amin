@@ -19,4 +19,3 @@ ich
 
 */
 function squarer(str) {}
-/* 
