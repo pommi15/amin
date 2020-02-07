@@ -47,31 +47,51 @@ console.log(vals.join(""));
 2
 3
 5
-usw.
-5) mach eine function der du einen string übergeben kannst die diesen string verkehrt ausgibt
-reverser("Hallo!") // gibt "!ollaH" aus
-*/
-// var backWards = "";
-// function reverser(str) {
-//     for (var i = str.length - 1; i >= 0; i--) {
-//         backWards += str[i];
-//     }
-// }
-// reverser("Hallo!");
-// console.log(backWards)
+usw.*/
 
 /*
+5) 
+ mach eine function der du einen string übergeben kannst die diesen string verkehrt ausgibt
+reverser("Hallo!") // gibt "!ollaH" aus
+*/
+// ja fast, aber warum hast du draußen eine variable die du dann in der function bearbeitest? das macht wenig sinn.
+// wenn dann sollte die function was returnen was du dann loggst oder die function loggt selber was also:
+/* entweder:
+function reverser(str) {
+  let backWards = ""
+  for (var i = str.length - 1; i >= 0; i--) {
+    backWards += str[i];
+  }
+  return backWards;
+}
+oder:
+function reverser(str) {
+  let backWards = ""
+  for (var i = str.length - 1; i >= 0; i--) {
+    backWards += str[i];
+  }
+  console.log(backWards);
+}
 
+*/
 
+var backWards = "";
+function reverser(str) {
+  for (var i = str.length - 1; i >= 0; i--) {
+    backWards += str[i];
+  }
+}
+reverser("Hallo!");
+console.log(backWards);
+
+/* Done
 6) mach einen loop der nur gerade zahlen bis 10 augibt
 
 */
 num = 10;
 for (i = 2; i <= num; i += 2) {
-    console.log(i)
+  console.log(i);
 }
-
-
 
 /*
 
@@ -90,6 +110,4 @@ teilbahr(30,3); gibt folgendes aus:
 27
 30
 8)
-
-
 */
