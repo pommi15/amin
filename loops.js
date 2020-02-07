@@ -16,7 +16,7 @@
 // }
 
 /*
-2) Done 
+2) Done
 mach einen loop der alle zahlen von 1 bis 10 ausgibt, in einer Ziele:
 12345678910
 
@@ -49,8 +49,25 @@ mach einen loop der alle zahlen von 10 bis -10 ausgibt in einer Zeile
 5
 usw.*/
 
+var ergebnis = [0, 1];
+var farr = [];
+farr[0] = 0;
+farr[1] = 1;
+for (i = 2; i <= 100; i++) {
+    farr[i] = farr[i - 2] + farr[i - 1];
+    ergebnis.push(farr[i])
+    // console.log(farr[i])                 //0 1 1 fehlt deshalb das ergebnis array
+}
+for (j = 0; j <= ergebnis.length; j++) {  //Damit es untereinander ausgegeben wird
+    console.log(ergebnis[j])
+}
+
+
+
+
+
 /*
-5) 
+5)
  mach eine function der du einen string übergeben kannst die diesen string verkehrt ausgibt
 reverser("Hallo!") // gibt "!ollaH" aus
 */
@@ -97,7 +114,7 @@ function reverser(str) {
 
 
 
-7) mach eine function die eine zahl n und eine zahl k nimmt. 
+7) mach eine function die eine zahl n und eine zahl k nimmt.
 n ist die zahl bis zu der der loop zählt und k ist die zahl durch die die geloggten zahlen teilbahr sein sollen
 teilbahr(30,3); gibt folgendes aus:
 3
@@ -113,14 +130,14 @@ teilbahr(30,3); gibt folgendes aus:
 8)
 */
 
-teiler(5, 100);
+// teiler(5, 100);
 
-function teiler(k, n) {
-    var counter = [];
-    for (i = 0; i <= n; i++) {
-        counter.push(i)
-        if (i % k === 0) {
-            console.log(counter[i])
-        }
-    }
-}
+// function teiler(k, n) {
+//     var counter = [];
+//     for (i = 0; i <= n; i++) {
+//         counter.push(i)
+//         if (i % k === 0) {
+//             console.log(counter[i])
+//         }
+//     }
+// }
