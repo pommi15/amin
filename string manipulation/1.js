@@ -2,9 +2,8 @@
 
 function hallo(name) {
     // dein code hier
-    str1 ="Hallo"
-    str2="was läuft?"
-    console.log(str1 +" "+ name+","+" "+str2)
+
+    console.log("Hallo" + " " + name + "," + " " + "was läuft?")
 }
 
 hallo("Amin"); // sollte "Hallo amin, was läuft?"" loggen
