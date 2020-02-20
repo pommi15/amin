@@ -1,4 +1,4 @@
-/*1) schreib eine function die einen Namen übernimmt und dann "Hallo {name}, was läuft?" ausgibt */
+/*1)Done schreib eine function die einen Namen übernimmt und dann "Hallo {name}, was läuft?" ausgibt */
 
 function hallo(name) {
     // dein code hier
