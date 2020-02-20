@@ -6,5 +6,12 @@
     */
 
 function combiner(a, b) {
-    return ""; // das is nur ein platzhalter dass du ans return denkst
+    let str = "";
+    for (i = 0; i < a.length; i++) { }
+    for (i = 0; i < b.length; i++) {
+        str += a[i] + b[i];
+    }
+    return str;
 }
+result = combiner("testiiis", "aaaa");
+console.log(result)
