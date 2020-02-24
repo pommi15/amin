@@ -18,4 +18,13 @@ ich
 ich
 
 */
-function squarer(str) {}
+function squarer(str) {
+    var x = str.length;
+    for (i = 1; i <= x; i++) {
+        console.log(str)
+    }
+}
+squarer("test");
+
+
+

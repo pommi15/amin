@@ -4,15 +4,17 @@
     compiner("test","aaaa");  wÃ¼rde "taeasata" zurÃ¼ckgeben
 
     */
-// meine «äberlegung war die strings zusammenzufassen und «äber die gesamtl«£nge zu iterrieren
-//dadurch dass aaaa nur 4x vorkommt erscheint undefined
+
 function combiner(a, b) {
     let str = "";
     let c = a + b;
     for (i = 0; i < c.length; i++) {
-
-        str += a[i]
-        str += b[i]
+        if (a[i]) {
+            str += a[i]
+        }
+        if (b[i]) {
+            str += b[i]
+        }
     }
 
     return str;
